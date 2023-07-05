@@ -64,3 +64,8 @@ with col2:
     st.write("<h3 style='text-align:center;'> Lap Times By Lap </h3>", unsafe_allow_html=True)
     lapTimes_drivers = st.multiselect('Whose Lap Times would you like to compare?', lapTimes.columns)
     st.line_chart(lapTimes, y = lapTimes_drivers)
+
+
+###########
+st.write('---')
+st.write("<h4 style='text-align:center;'> new sections to come | work in progress... </h4>", unsafe_allow_html=True)
