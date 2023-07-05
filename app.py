@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from race_analysis import get_laps, get_positions, get_lapTimes
 
 st.set_page_config(
-    page_title="Word Generator",
+    page_title="Race Analysis",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
